@@ -1,0 +1,41 @@
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Distribution artifacts
+dist/
+
+# Build artifacts
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Database files (if using local SQLite)
+*.db
+*.sqlite
+
+# Temporary files
+tmp/
+temp/
