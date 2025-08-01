@@ -51,3 +51,18 @@ CREATE TABLE bp_readings (
     notes TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+## Environment Variables
+
+Create a `.env` file in the root directory with the following variables:
+
+```env
+DB_USER=your_database_username
+DB_HOST=localhost
+DB_NAME=your_database_name
+DB_PASSWORD=your_database_password
+DB_PORT=5432
+JWT_SECRET=your_jwt_secret_key_here
+JWT_EXPIRE=7d
+PORT=3000
+NODE_ENV=development
